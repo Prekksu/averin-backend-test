@@ -1,6 +1,5 @@
-const { join } = require("path");
 const dotenv = require("dotenv");
-dotenv.config({ path: join(__dirname, "../.env") });
+dotenv.config();
 const express = require("express");
 const productRoute = require("./routers/productRoute");
 const db = require("./models");
