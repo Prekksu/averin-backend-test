@@ -4,7 +4,7 @@
 
 1. Buka MySQL dan buat database baru dengan nama db_averin.
 
-### VSCode Setup
+## VSCode Setup
 
 1. Clone repository via terminal:
    `git clone https://github.com/Prekksu/averin-backend-test.git`
