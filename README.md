@@ -17,10 +17,12 @@
 
 5. Buka folder src dan buka file index.js.
 
-6. `Uncomment` baris berikut untuk melakukan sinkronisasi tabel database: `db.sequelize.sync({ alter: true })` lalu save.
+6. Jalankan program di terminal dengan mengetikkan `nodemon`.
 
-7. `Comment` kembali baris tersebut agar sinkronisasi tidak terulang setiap kali program disimpan.
+7. Akan terjadi error di terminal
 
-8. Jalankan program di terminal dengan mengetikkan `nodemon`.
+8. `Uncomment` baris berikut untuk melakukan sinkronisasi tabel database: `db.sequelize.sync({ alter: true })` lalu save.
+
+9. `Comment` kembali baris tersebut agar sinkronisasi tidak terulang setiap kali program disimpan.
 
 #### Program siap untuk diuji menggunakan Postman.
