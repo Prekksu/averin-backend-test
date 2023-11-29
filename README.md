@@ -21,6 +21,6 @@
 
 7. `Comment` kembali baris tersebut agar sinkronisasi tidak terulang setiap kali program disimpan.
 
-8. Jalankan program di terminal dengan mengetikkan `nodemon` di terminal
+8. Jalankan program di terminal dengan mengetikkan `nodemon`.
 
 #### Program siap untuk diuji menggunakan Postman.
