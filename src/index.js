@@ -1,7 +1,7 @@
 const dotenv = require("dotenv");
 dotenv.config();
 const express = require("express");
-const productRoute = require("./routers/productRoute");
+const route = require("./routers");
 const db = require("./models");
 // db.sequelize.sync({ alter: true });
 
@@ -12,7 +12,7 @@ app.use(express.json());
 
 // ===========================
 
-app.use("/api/product", productRoute);
+app.use("/api/product", route.productRoute);
 
 // ===========================
 
