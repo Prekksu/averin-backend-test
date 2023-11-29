@@ -2,7 +2,7 @@
 
 ## MySQL Setup
 
-1. Buka MySQL dan buat database baru dengan nama db_averin.
+1. Buka MySQL dan buat database baru dengan nama `db_averin`.
 
 ## VSCode Setup
 
