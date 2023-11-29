@@ -2,10 +2,9 @@ const { join } = require("path");
 const dotenv = require("dotenv");
 dotenv.config({ path: join(__dirname, "../.env") });
 const express = require("express");
-// const router = require("./routers");
+const productRoute = require("./routers/productRoute");
 const db = require("./models");
 // db.sequelize.sync({ alter: true });
-// db.sequelize.sync({ force: true });
 
 const PORT = process.env.PORT || 8000;
 const app = express();
@@ -14,7 +13,7 @@ app.use(express.json());
 
 // ===========================
 
-// app.use("/api/auth", router.authRouter);
+app.use("/api/product", productRoute);
 
 // ===========================
 
